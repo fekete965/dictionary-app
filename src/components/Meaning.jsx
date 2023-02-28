@@ -4,6 +4,7 @@ const Meaning = (props) => {
 	return (
 		<div>
 			{/* 
+
 			{props.meaning.map((item) =>
 				item.meanings.map((means) => (
 					<div key={means.partOfSpeech}>{means.partOfSpeech}</div>
@@ -17,6 +18,10 @@ const Meaning = (props) => {
 					))
 				)
 			)}
+
+			{props.meaning.map((item) => {
+				console.log(item);
+			})}
 		</div>
 	);
 };
