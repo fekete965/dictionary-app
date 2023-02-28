@@ -1,0 +1,11 @@
+@use '../globals/breaks' as b;
+
+body {
+    overflow-x: hidden;
+    line-height: 1.438rem;
+    font-family: var(--ff);
+    font-size: 1rem;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--clr-200);
+}
